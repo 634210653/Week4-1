@@ -1,0 +1,12 @@
+------Guess Number Game, You have 6 chances to guess!  ------
+------Please input your answer as x x x x , x <10 ------
+Guess Result: 0A1B
+Guess History:
+[Guess Numbers: 3 7 8 9, Guess Result: 0A1B]
+------Please input your answer as x x x x , x <10 ------
+Guess Result: 4A0B
+Guess History:
+[Guess Numbers: 3 7 8 9, Guess Result: 0A1B]
+[Guess Numbers: 1 2 3 4, Guess Result: 4A0B]
+Game Status: success
+

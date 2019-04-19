@@ -1,0 +1,42 @@
+------Guess Number Game, You have 6 chances to guess!  ------
+------Please input your answer as x x x x , x <10 ------
+Guess Result: 2A1B
+Guess History:
+[Guess Numbers: 1 2 4 7, Guess Result: 2A1B]
+------Please input your answer as x x x x , x <10 ------
+Guess Result: 1A1B
+Guess History:
+[Guess Numbers: 1 2 4 7, Guess Result: 2A1B]
+[Guess Numbers: 9 2 4 7, Guess Result: 1A1B]
+------Please input your answer as x x x x , x <10 ------
+Guess Result: 1A1B
+Guess History:
+[Guess Numbers: 1 2 4 7, Guess Result: 2A1B]
+[Guess Numbers: 9 2 4 7, Guess Result: 1A1B]
+[Guess Numbers: 5 2 4 7, Guess Result: 1A1B]
+------Please input your answer as x x x x , x <10 ------
+Guess Result: 1A1B
+Guess History:
+[Guess Numbers: 1 2 4 7, Guess Result: 2A1B]
+[Guess Numbers: 9 2 4 7, Guess Result: 1A1B]
+[Guess Numbers: 5 2 4 7, Guess Result: 1A1B]
+[Guess Numbers: 0 2 4 7, Guess Result: 1A1B]
+------Please input your answer as x x x x , x <10 ------
+Guess Result: 1A2B
+Guess History:
+[Guess Numbers: 1 2 4 7, Guess Result: 2A1B]
+[Guess Numbers: 9 2 4 7, Guess Result: 1A1B]
+[Guess Numbers: 5 2 4 7, Guess Result: 1A1B]
+[Guess Numbers: 0 2 4 7, Guess Result: 1A1B]
+[Guess Numbers: 3 2 4 7, Guess Result: 1A2B]
+------Please input your answer as x x x x , x <10 ------
+Guess Result: 1A1B
+Guess History:
+[Guess Numbers: 1 2 4 7, Guess Result: 2A1B]
+[Guess Numbers: 9 2 4 7, Guess Result: 1A1B]
+[Guess Numbers: 5 2 4 7, Guess Result: 1A1B]
+[Guess Numbers: 0 2 4 7, Guess Result: 1A1B]
+[Guess Numbers: 3 2 4 7, Guess Result: 1A2B]
+[Guess Numbers: 6 2 4 7, Guess Result: 1A1B]
+Game Status: fail
+
