@@ -28,6 +28,12 @@ public class Game {
         this.guessResults = new ArrayList();
     }
 
+    //给测试用的接口
+    public Game(String answer){
+        this.actualAnswer = Answer.createAnswer(answer);
+        this.guessResults = new ArrayList();
+    }
+
     public GuessResult guess(Answer inputAnswer) {
         final String result = actualAnswer.check(inputAnswer).getValue();
         GuessResult guessResult = new GuessResult(result, inputAnswer);
