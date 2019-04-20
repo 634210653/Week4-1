@@ -8,6 +8,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+
 /**
  * 在AnswerGeneratorTest文件中完成AnswerGenerator中对应的单元测试
  */
@@ -16,19 +19,19 @@ public class AnswerGeneratorTest {
     @Test
     public void generateTest(){
 
-        AnswerGenerator generator = new AnswerGenerator(new RandomIntGenerator());
 
-        for(int i=0; i< 10;i++){
-            try {
-                Answer answer = generator.generate();
-                String [] result = answer.toString().split(" ");
-                List<Integer> list = Stream.of(result).distinct().map(Integer::new).collect(Collectors.toList());
-                //testing needNumber and max
-                Assert.assertEquals(4, list.size());
-                list.forEach((value)-> Assert.assertTrue(value<=9));
-            }catch(Exception e){
-               Assert.assertEquals("Answer format is incorrect",e.getMessage());
-            }
+
+        try {
+            RandomIntGenerator randomIntGenerator = mock(RandomIntGenerator.class);
+            AnswerGenerator generator = new AnswerGenerator(randomIntGenerator);
+            String answerStr = "1 2 3 4";
+            when(randomIntGenerator.generateNums(9,4)).thenReturn(answerStr);
+            Assert.assertEquals(generator.generate().toString(),answerStr);
+            String answerStr2 = "1 2 3 11";
+            when(randomIntGenerator.generateNums(9,4)).thenReturn(answerStr2);
+            generator.generate();
+        }catch (Exception e) {
+            Assert.assertEquals("Answer format is incorrect",e.getMessage());
         }
     }
 }

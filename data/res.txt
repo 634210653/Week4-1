@@ -1,0 +1,39 @@
+Guess Result: 3A1B
+Guess History:
+[Guess Numbers: 2 1 3 4, Guess Result: 3A1B]
+Guess Result: 3A1B
+Guess History:
+[Guess Numbers: 2 1 3 4, Guess Result: 3A1B]
+[Guess Numbers: 2 1 3 4, Guess Result: 3A1B]
+Guess Result: 3A1B
+Guess History:
+[Guess Numbers: 2 1 3 4, Guess Result: 3A1B]
+[Guess Numbers: 2 1 3 4, Guess Result: 3A1B]
+[Guess Numbers: 2 1 3 4, Guess Result: 3A1B]
+Guess Result: 3A1B
+Guess History:
+[Guess Numbers: 2 1 3 4, Guess Result: 3A1B]
+[Guess Numbers: 2 1 3 4, Guess Result: 3A1B]
+[Guess Numbers: 2 1 3 4, Guess Result: 3A1B]
+[Guess Numbers: 2 1 3 4, Guess Result: 3A1B]
+Guess Result: 3A1B
+Guess History:
+[Guess Numbers: 2 1 3 4, Guess Result: 3A1B]
+[Guess Numbers: 2 1 3 4, Guess Result: 3A1B]
+[Guess Numbers: 2 1 3 4, Guess Result: 3A1B]
+[Guess Numbers: 2 1 3 4, Guess Result: 3A1B]
+[Guess Numbers: 2 1 3 4, Guess Result: 3A1B]
+Guess Result: 3A1B
+Guess History:
+[Guess Numbers: 2 1 3 4, Guess Result: 3A1B]
+[Guess Numbers: 2 1 3 4, Guess Result: 3A1B]
+[Guess Numbers: 2 1 3 4, Guess Result: 3A1B]
+[Guess Numbers: 2 1 3 4, Guess Result: 3A1B]
+[Guess Numbers: 2 1 3 4, Guess Result: 3A1B]
+[Guess Numbers: 2 1 3 4, Guess Result: 3A1B]
+Game Status: fail
+Guess Result: 4A0B
+Guess History:
+[Guess Numbers: 1 2 3 4, Guess Result: 4A0B]
+Game Status: success
+

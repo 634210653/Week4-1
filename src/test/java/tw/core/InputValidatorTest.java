@@ -19,8 +19,5 @@ public class InputValidatorTest {
         Assert.assertFalse(validator.validate("1 2 4"));
         Assert.assertFalse(validator.validate("1 2 4 5 6"));
         Assert.assertTrue(validator.validate("1 2 4 5 "));
-
-
-
     }
 }

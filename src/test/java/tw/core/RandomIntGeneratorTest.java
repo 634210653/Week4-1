@@ -33,11 +33,8 @@ public class RandomIntGeneratorTest {
         try{
             generater.generateNums(6,7);
         }catch (Exception e){
-
             Assert.assertEquals("Can't ask for more numbers than are available",e.getMessage());
         }
-
-
     }
 
 

@@ -51,10 +51,9 @@ public class AnswerTest {
 
     @Test
     public  void setNumListTest(){
+
         Answer answer = Answer.createAnswer("4 5 6 7");
-
         answer.setNumList( Stream.of(new String[] {"4","6","5","7"}).collect(Collectors.toList()));
-
         Assert.assertEquals("4 6 5 7",answer.toString());
         Assert.assertFalse("4 5 6 7".equals(answer.toString()));
 
